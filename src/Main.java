@@ -38,6 +38,9 @@ public class Main {
                     //Puntos de magia
                     System.out.println("Ingrese los puntos de magia:");
                     player_character.magic_points = Integer.parseInt(scanner.nextLine());
+                    //Asignemos la edad
+                    System.out.println("Ingrese la edad: ");
+                    player_character.validarEdad(Integer.parseInt(scanner.nextLine()));
 
                     break;
 
@@ -46,6 +49,7 @@ public class Main {
                     System.out.println("Nombre: " + player_character.name);
                     System.out.println("Vida del personaje: " + player_character.mostrarVida());
                     System.out.println("Maná del personaje: " + player_character.magic_points);
+                    System.out.println("Edad del personaje: " + player_character.mostrarEdad());
                     break;
                 case "3":
                     System.out.println("Gracias por jugar, Vuelva pronto");
