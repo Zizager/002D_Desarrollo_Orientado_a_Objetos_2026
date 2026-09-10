@@ -1,2 +1,0 @@
-Crear clase autor que contenga "ID" y "Nombre" (Con su respectivo metodo constructor).
-Crear multiples instancias (al menos 10) y guardar estas instancias em una ArrayList, en donde opcion 1:Crea autor, opcion 2:Muestra todos los autores, opcion 3: Muestra un autor en concreto segun su ID
